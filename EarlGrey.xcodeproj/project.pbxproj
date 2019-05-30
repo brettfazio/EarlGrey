@@ -34,6 +34,28 @@
 		80DE46A222A03AAA0027A525 /* GREYElementInteractionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50492220FB239800261CBE /* GREYElementInteractionProxy.m */; };
 		80DE46A422A03C040027A525 /* EarlGrey.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492920FB239900261CBE /* EarlGrey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80DE46B922A03EF00027A525 /* libCommonLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62395120F56A9700049E81 /* libCommonLib.a */; };
+		80DE46BA22A03F6F0027A525 /* GREYMatchersShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623B6120F95B0300049E81 /* GREYMatchersShorthand.h */; };
+		80DE46BB22A03F740027A525 /* GREYActionsShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A825A21F189BC00CA3ADF /* GREYActionsShorthand.h */; };
+		80DE46BC22A03F790027A525 /* GREYVisibilityChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF9E06B20F82F020005DCF2 /* GREYVisibilityChecker.h */; };
+		80DE46BD22A03F800027A525 /* GREYElementHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF9E06D20F82F020005DCF2 /* GREYElementHierarchy.h */; };
+		80DE46BE22A03F900027A525 /* EarlGreyImpl+XCUIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492120FB239800261CBE /* EarlGreyImpl+XCUIApplication.h */; };
+		80DE46BF22A03F9A0027A525 /* GREYCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50491820FB237100261CBE /* GREYCondition.h */; };
+		80DE46C022A03FA20027A525 /* GREYElementInteractionErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD98C45F226C32FA006F8D68 /* GREYElementInteractionErrorHandler.h */; };
+		80DE46C122A03FAD0027A525 /* XCUIApplication+GREYEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1184CB212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.h */; };
+		80DE46C222A03FB80027A525 /* GREYActions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623A6B20F958C200049E81 /* GREYActions.h */; };
+		80DE46C322A03FC00027A525 /* GREYAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623DBE20FD764500049E81 /* GREYAnalytics.h */; };
+		80DE46C422A03FC80027A525 /* GREYFailureScreenshotSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = FD98C463226C3309006F8D68 /* GREYFailureScreenshotSaver.h */; };
+		80DE46C622A03FFE0027A525 /* XCTestCase+GREYTest.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50493B20FB23E500261CBE /* XCTestCase+GREYTest.h */; };
+		80DE46C722A040120027A525 /* GREYTestApplicationDistantObject+GREYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A826121F18A5800CA3ADF /* GREYTestApplicationDistantObject+GREYLogger.h */; };
+		80DE46C822A0401C0027A525 /* GREYMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623B5620F95B0200049E81 /* GREYMatchers.h */; };
+		80DE46C922A040240027A525 /* GREYTestApplicationDistantObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239AB20F56C2500049E81 /* GREYTestApplicationDistantObject.h */; };
+		80DE46CA22A040320027A525 /* GREYDefaultFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50493020FB23AE00261CBE /* GREYDefaultFailureHandler.h */; };
+		80DE46CB22A040420027A525 /* XCTestCase+GREYSystemAlertHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50490D20FB231A00261CBE /* XCTestCase+GREYSystemAlertHandler.h */; };
+		80DE46CC22A0404F0027A525 /* GREYFailureFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492F20FB23AE00261CBE /* GREYFailureFormatter.h */; };
+		80DE46CD22A040570027A525 /* XCUIApplication+GREYTest.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492820FB239800261CBE /* XCUIApplication+GREYTest.h */; };
+		80DE46CE22A040600027A525 /* GREYTestCaseInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50493A20FB23E500261CBE /* GREYTestCaseInvocation.h */; };
+		80DE46CF22A0406A0027A525 /* GREYTestConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2E76EF2149E4860063EF7E /* GREYTestConfiguration.h */; };
+		80DE46D022A040720027A525 /* GREYElementInteractionProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492720FB239800261CBE /* GREYElementInteractionProxy.h */; };
 		FD1184D3212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1184D2212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m */; };
 		FD2E76EC2149E4580063EF7E /* GREYAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2E76EA2149E4580063EF7E /* GREYAppConfiguration.m */; };
 		FD2E76ED2149E4580063EF7E /* GREYAppConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2E76EB2149E4580063EF7E /* GREYAppConfiguration.h */; };
@@ -1487,6 +1509,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DE46A422A03C040027A525 /* EarlGrey.h in Headers */,
+				80DE46D022A040720027A525 /* GREYElementInteractionProxy.h in Headers */,
+				80DE46CF22A0406A0027A525 /* GREYTestConfiguration.h in Headers */,
+				80DE46CE22A040600027A525 /* GREYTestCaseInvocation.h in Headers */,
+				80DE46CD22A040570027A525 /* XCUIApplication+GREYTest.h in Headers */,
+				80DE46CC22A0404F0027A525 /* GREYFailureFormatter.h in Headers */,
+				80DE46CB22A040420027A525 /* XCTestCase+GREYSystemAlertHandler.h in Headers */,
+				80DE46CA22A040320027A525 /* GREYDefaultFailureHandler.h in Headers */,
+				80DE46C922A040240027A525 /* GREYTestApplicationDistantObject.h in Headers */,
+				80DE46C822A0401C0027A525 /* GREYMatchers.h in Headers */,
+				80DE46C622A03FFE0027A525 /* XCTestCase+GREYTest.h in Headers */,
+				80DE46C722A040120027A525 /* GREYTestApplicationDistantObject+GREYLogger.h in Headers */,
+				80DE46C422A03FC80027A525 /* GREYFailureScreenshotSaver.h in Headers */,
+				80DE46C322A03FC00027A525 /* GREYAnalytics.h in Headers */,
+				80DE46C222A03FB80027A525 /* GREYActions.h in Headers */,
+				80DE46C122A03FAD0027A525 /* XCUIApplication+GREYEnvironment.h in Headers */,
+				80DE46C022A03FA20027A525 /* GREYElementInteractionErrorHandler.h in Headers */,
+				80DE46BF22A03F9A0027A525 /* GREYCondition.h in Headers */,
+				80DE46BE22A03F900027A525 /* EarlGreyImpl+XCUIApplication.h in Headers */,
+				80DE46BD22A03F800027A525 /* GREYElementHierarchy.h in Headers */,
+				80DE46BC22A03F790027A525 /* GREYVisibilityChecker.h in Headers */,
+				80DE46BB22A03F740027A525 /* GREYActionsShorthand.h in Headers */,
+				80DE46BA22A03F6F0027A525 /* GREYMatchersShorthand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
