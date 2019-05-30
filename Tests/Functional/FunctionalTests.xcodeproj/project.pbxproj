@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80DE46EC22A045490027A525 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DE46E322A045490027A525 /* TestFramework.framework */; };
 		FD0200A1212E4455007585B2 /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD623D2E20FD6BF900049E81 /* libTestLib.a */; };
 		FD0200A4212E4455007585B2 /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD623D2C20FD6BF900049E81 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD0200A6212E4455007585B2 /* HostDOCategories.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD6678692122290B008EC4A7 /* HostDOCategories.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -242,6 +243,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		80DE46E822A045490027A525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD623D1F20FD6BF900049E81 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80DE467522A038F50027A525;
+			remoteInfo = TestFramework;
+		};
+		80DE46EA22A045490027A525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD623D1F20FD6BF900049E81 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80DE467D22A038F50027A525;
+			remoteInfo = TestFrameworkTests;
+		};
 		FD02006C212E4455007585B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD623D1F20FD6BF900049E81 /* EarlGrey.xcodeproj */;
@@ -393,6 +408,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		80DE46E322A045490027A525 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestFramework.framework; sourceTree = "<group>"; };
 		FD0200AA212E4455007585B2 /* FunctionalOutOfProcessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalOutOfProcessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1184D8212CEFAA004CADC3 /* FunctionalSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1184E4212CEFF8004CADC3 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarlGrey.swift; path = ../../../../TestLib/Swift/EarlGrey.swift; sourceTree = "<group>"; };
@@ -633,6 +649,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DE46EC22A045490027A525 /* TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,6 +789,7 @@
 		FD623C1A20FD194800049E81 = {
 			isa = PBXGroup;
 			children = (
+				80DE46E322A045490027A525 /* TestFramework.framework */,
 				FD5EB4862118FD61006F82A0 /* Sources */,
 				FD623D1F20FD6BF900049E81 /* EarlGrey.xcodeproj */,
 				FD623C5620FD1A2F00049E81 /* FunctionalTestRig */,
@@ -946,6 +964,8 @@
 				FD623D2A20FD6BF900049E81 /* libUILib.a */,
 				FD623D2C20FD6BF900049E81 /* AppFramework.framework */,
 				FD623D2E20FD6BF900049E81 /* libTestLib.a */,
+				80DE46E922A045490027A525 /* TestFramework.framework */,
+				80DE46EB22A045490027A525 /* TestFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1181,6 +1201,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		80DE46E922A045490027A525 /* TestFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestFramework.framework;
+			remoteRef = 80DE46E822A045490027A525 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80DE46EB22A045490027A525 /* TestFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TestFrameworkTests.xctest;
+			remoteRef = 80DE46EA22A045490027A525 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FD623D2820FD6BF900049E81 /* libCommonLib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1892,6 +1926,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = logo_earlgrey_launchscreen_color;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "FunctionalTestRig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1909,6 +1947,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = logo_earlgrey_launchscreen_color;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "FunctionalTestRig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
