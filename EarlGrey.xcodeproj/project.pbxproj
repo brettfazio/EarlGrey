@@ -33,23 +33,7 @@
 		80DE46A122A03AA20027A525 /* GREYTestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2E76F02149E4860063EF7E /* GREYTestConfiguration.m */; };
 		80DE46A222A03AAA0027A525 /* GREYElementInteractionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50492220FB239800261CBE /* GREYElementInteractionProxy.m */; };
 		80DE46A422A03C040027A525 /* EarlGrey.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50492920FB239900261CBE /* EarlGrey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80DE46A522A03C540027A525 /* GREYAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623A5620F958C000049E81 /* GREYAction.h */; };
-		80DE46A622A03C5B0027A525 /* GREYActionsShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A825A21F189BC00CA3ADF /* GREYActionsShorthand.h */; };
-		80DE46A722A03C6D0027A525 /* GREYHostBackgroundDistantObject+GREYApp.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623B1020F95A5300049E81 /* GREYHostBackgroundDistantObject+GREYApp.h */; };
-		80DE46A822A03C770027A525 /* GREYMatchersShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = FD623B6120F95B0300049E81 /* GREYMatchersShorthand.h */; };
-		80DE46A922A03C870027A525 /* GREYAssertionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A824F21F187C700CA3ADF /* GREYAssertionBlock.h */; };
-		80DE46AA22A03D4D0027A525 /* GREYConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239A220F56BE700049E81 /* GREYConfiguration.h */; };
-		80DE46AB22A03D5A0027A525 /* GREYHostApplicationDistantObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239AA20F56C2500049E81 /* GREYHostApplicationDistantObject.h */; };
-		80DE46AC22A03D640027A525 /* GREYTestApplicationDistantObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239AB20F56C2500049E81 /* GREYTestApplicationDistantObject.h */; };
-		80DE46AD22A03D6A0027A525 /* GREYErrorConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239B120F56C3D00049E81 /* GREYErrorConstants.h */; };
-		80DE46AE22A03D700027A525 /* GREYFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239C820F56C5E00049E81 /* GREYFailureHandler.h */; };
-		80DE46AF22A03D780027A525 /* GREYFrameworkException.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239C720F56C5E00049E81 /* GREYFrameworkException.h */; };
-		80DE46B022A03D7E0027A525 /* GREYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239D920F56C9400049E81 /* GREYDefines.h */; };
-		80DE46B122A03D870027A525 /* GREYElementMatcherBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A825421F187FB00CA3ADF /* GREYElementMatcherBlock.h */; };
-		80DE46B222A03D8F0027A525 /* GREYMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6239CD20F56C7100049E81 /* GREYMatcher.h */; };
-		80DE46B322A03D980027A525 /* XCTestCase+GREYSystemAlertHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50490D20FB231A00261CBE /* XCTestCase+GREYSystemAlertHandler.h */; };
-		80DE46B422A03DA30027A525 /* GREYAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50491620FB235D00261CBE /* GREYAssertionDefines.h */; };
-		80DE46B522A03DA90027A525 /* GREYCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = FD50491820FB237100261CBE /* GREYCondition.h */; };
+		80DE46B922A03EF00027A525 /* libCommonLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62395120F56A9700049E81 /* libCommonLib.a */; };
 		FD1184D3212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1184D2212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m */; };
 		FD2E76EC2149E4580063EF7E /* GREYAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2E76EA2149E4580063EF7E /* GREYAppConfiguration.m */; };
 		FD2E76ED2149E4580063EF7E /* GREYAppConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2E76EB2149E4580063EF7E /* GREYAppConfiguration.h */; };
@@ -744,6 +728,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DE46B922A03EF00027A525 /* libCommonLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1502,23 +1487,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DE46A422A03C040027A525 /* EarlGrey.h in Headers */,
-				80DE46B522A03DA90027A525 /* GREYCondition.h in Headers */,
-				80DE46B422A03DA30027A525 /* GREYAssertionDefines.h in Headers */,
-				80DE46B322A03D980027A525 /* XCTestCase+GREYSystemAlertHandler.h in Headers */,
-				80DE46B222A03D8F0027A525 /* GREYMatcher.h in Headers */,
-				80DE46B122A03D870027A525 /* GREYElementMatcherBlock.h in Headers */,
-				80DE46B022A03D7E0027A525 /* GREYDefines.h in Headers */,
-				80DE46AF22A03D780027A525 /* GREYFrameworkException.h in Headers */,
-				80DE46AE22A03D700027A525 /* GREYFailureHandler.h in Headers */,
-				80DE46AD22A03D6A0027A525 /* GREYErrorConstants.h in Headers */,
-				80DE46AC22A03D640027A525 /* GREYTestApplicationDistantObject.h in Headers */,
-				80DE46AB22A03D5A0027A525 /* GREYHostApplicationDistantObject.h in Headers */,
-				80DE46AA22A03D4D0027A525 /* GREYConfiguration.h in Headers */,
-				80DE46A922A03C870027A525 /* GREYAssertionBlock.h in Headers */,
-				80DE46A822A03C770027A525 /* GREYMatchersShorthand.h in Headers */,
-				80DE46A722A03C6D0027A525 /* GREYHostBackgroundDistantObject+GREYApp.h in Headers */,
-				80DE46A622A03C5B0027A525 /* GREYActionsShorthand.h in Headers */,
-				80DE46A522A03C540027A525 /* GREYAction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
