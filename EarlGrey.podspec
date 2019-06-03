@@ -15,9 +15,9 @@ s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "e
 
 s.source_files = "TestLib/**/*.{m,h}", "CommonLib/**/*.{m,h}", "AppFramework/**/*.h", "UILib/**/*.h"
 
-s.public_headers = "TestLib/**/*.h"
+s.public_header_files = "TestLib/**/*.h"
 
-s.private_headers = "AppFramework/**/*.h", "UILib/**/*.h", "CommonLib/**/*.h"
+s.private_header_files = "AppFramework/**/*.h", "UILib/**/*.h", "CommonLib/**/*.h"
 
 s.platform = :ios, '10.0'
 
