@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     
   #end
 
-  s.vendored_frameworks = "AppFramework.framework", "TestFramework.framework"
+  s.vendored_frameworks = "AppFramework.framework"
   # REMOVE THE LINE BELOW EVENTUALLY
   s.vendored_libraries = "libeDistantObject.a"
   s.platform = :ios, '10.0'
