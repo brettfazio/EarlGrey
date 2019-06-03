@@ -13,11 +13,11 @@ s.dependency "eDistantObject"
 s.frameworks = "CoreData","CoreFoundation","CoreGraphics","Foundation","IOKit","QuartzCore","UIKit","XCTest"
 s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "earlgrey2" }
 
-s.sources = “TestLib/**/*.{m,h}”, “CommonLib/**/*.{m,h}”, “AppFramework/**/*.h”, “UILib/**/*.h”
+s.sources = “TestLib/*.{m,h}”, “CommonLib/*.{m,h}”, “AppFramework/*.h”, “UILib/*.h”
 
-s.public_headers = “TestLib/**/*.h”
+s.public_headers = “TestLib/*.h”
 
-s.private_headers = “AppFramework/**/*.h”, “UILib/**/*.h”, “CommonLib/**/*.h”
+s.private_headers = “AppFramework/*.h”, “UILib/*.h”, “CommonLib/*.h”
 
 s.platform = :ios, '10.0'
 
