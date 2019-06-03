@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = "CoreData","CoreFoundation","CoreGraphics","Foundation","IOKit","QuartzCore","UIKit","XCTest"
 
   #s.preserve_paths = "EarlGrey/CHANGELOG.md", "EarlGrey/LICENSE", "EarlGrey/README.md"
+  s.preserve_paths = "EarlGrey/README.md"
   
   #subspec 'AppFramework' do |af|
    
