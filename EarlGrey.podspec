@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   
 s.name = "EarlGrey"
-s.version = "2.0.7"
+s.version = "2.0.8"
 s.summary = "iOS UI Automation Test Framework"
-s.homepage = "https://github.com/google/EarlGrey"
+s.homepage = "https://github.com/brettfazio/EarlGrey"
 s.author = "Google Inc."
 s.summary = "SUMMARY"
 s.license = { :type => "Apache 2.0", :file => "LICENSE" }
