@@ -8,7 +8,8 @@ s.author = "Google Inc."
 s.summary = "SUMMARY"
 s.license = { :type => "Apache 2.0", :file => "LICENSE" }
 
-s.dependency "eDistantObject"
+# not published
+#s.dependency "eDistantObject"
 
 s.frameworks = "CoreData","CoreFoundation","CoreGraphics","Foundation","IOKit","QuartzCore","UIKit","XCTest"
 s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "earlgrey2" }
