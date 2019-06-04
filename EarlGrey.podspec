@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
 s.name = "EarlGrey"
-s.version = "2.0.11"
+s.version = "2.0.12"
 s.summary = "iOS UI Automation Test Framework"
 s.homepage = "https://github.com/brettfazio/EarlGrey"
 s.author = "Google Inc."
@@ -19,8 +19,6 @@ s.source_files = "TestLib/**/*.{m,h}", "CommonLib/**/*.{m,h}", "AppFramework/**/
 s.public_header_files = "TestLib/**/*.h"
 
 s.private_header_files = "AppFramework/**/*.h", "UILib/**/*.h", "CommonLib/**/*.h"
-
-s.header_dir = "./**"
   
 s.platform = :ios, '10.0'
 
