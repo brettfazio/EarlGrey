@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGrey"
-  s.version = "2.0.1"
+  s.version = "2.0.0"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
     
   #end
 
-  s.vendored_frameworks = "AppFramework.framework"
+  s.vendored_frameworks = "AppFramework.framework", "TestFramework.framework"
   # REMOVE THE LINE BELOW EVENTUALLY
-  s.vendored_libraries = "libeDistantObject.a"
+  #s.vendored_libraries = "libeDistantObject.a"
   s.platform = :ios, '10.0'
 end
