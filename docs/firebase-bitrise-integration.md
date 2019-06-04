@@ -37,7 +37,7 @@ xcodebuild test-without-building \
 
 ## Local execution on a remote physical device
 
-Next verify the tests pass on Firebase Test Lab. Define `flank.ios.yml` for the app:
+Next, verify the tests pass on Firebase Test Lab. Define `flank.ios.yml` for the app:
 
 ```yaml
 gcloud:
