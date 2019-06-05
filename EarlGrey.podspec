@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGrey"
-  s.version = "2.0.13"
+  s.version = "2.0.12"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "Apache 2.0", :file => "LICENSE" }
 
   # Download zipped Frameworks from GitHub.
-  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.13/EarlGrey.zip" }
+  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.12/EarlGrey.zip" }
 
   #s.dependency "eDistantObject"
 
