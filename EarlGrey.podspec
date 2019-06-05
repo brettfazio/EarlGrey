@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "Apache 2.0", :file => "LICENSE" }
 
   # Download zipped Frameworks from GitHub.
-  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.0/EarlGrey.zip" }
+  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.10/EarlGrey.zip" }
 
   #s.dependency "eDistantObject"
 
