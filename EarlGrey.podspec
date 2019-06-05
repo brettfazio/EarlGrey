@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGrey"
-  s.version = "2.0.10"
+  s.version = "2.0.11"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -9,14 +9,14 @@ Pod::Spec.new do |s|
   s.license = { :type => "Apache 2.0", :file => "LICENSE" }
 
   # Download zipped Frameworks from GitHub.
-  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.10/EarlGrey.zip" }
+  s.source = { :http => "https://www.github.com/brettfazio/EarlGrey/releases/download/2.0.11/EarlGrey.zip" }
 
   #s.dependency "eDistantObject"
 
   s.frameworks = "CoreData","CoreFoundation","CoreGraphics","Foundation","IOKit","QuartzCore","UIKit","XCTest"
 
   #s.preserve_paths = "EarlGrey/CHANGELOG.md", "EarlGrey/LICENSE", "EarlGrey/README.md"
-  s.preserve_paths = "EarlGrey/README.md"
+  #s.preserve_paths = "EarlGrey/README.md"
   
   #subspec 'AppFramework' do |af|
    
