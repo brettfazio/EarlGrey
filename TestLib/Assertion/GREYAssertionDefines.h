@@ -24,7 +24,7 @@
 #ifndef GREY_ASSERTION_DEFINES_H
 #define GREY_ASSERTION_DEFINES_H
 
-#import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "GREYUIThreadExecutor.h"
 #import "GREYAssertionDefines.h"
 #import "GREYConfiguration.h"
 #import "GREYFailureHandler.h"

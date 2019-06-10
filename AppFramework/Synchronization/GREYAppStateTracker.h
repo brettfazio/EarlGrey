@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AppFramework/IdlingResources/GREYIdlingResource.h"
+#import "GREYIdlingResource.h"
 
 #import "GREYAppState.h"
 

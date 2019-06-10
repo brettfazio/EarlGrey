@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/NSObject+GREYApp.h"
+#import "NSObject+GREYApp.h"
 
 #include <objc/runtime.h>
 
-#import "AppFramework/IdlingResources/GREYTimedIdlingResource.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "GREYTimedIdlingResource.h"
+#import "GREYSyncAPI.h"
 #import "NSObject+GREYCommon.h"
 #import "GREYFatalAsserts.h"
 #import "GREYConfiguration.h"

@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYSlideAction.h"
+#import "GREYSlideAction.h"
 
 #include <tgmath.h>
 
-#import "AppFramework/Core/GREYInteraction.h"
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/Event/GREYSyntheticEvents.h"
-#import "AppFramework/Matcher/GREYAllOf.h"
-#import "AppFramework/Matcher/GREYMatchers.h"
-#import "AppFramework/Matcher/GREYNot.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "GREYInteraction.h"
+#import "GREYAppError.h"
+#import "GREYSyntheticEvents.h"
+#import "GREYAllOf.h"
+#import "GREYMatchers.h"
+#import "GREYNot.h"
+#import "GREYSyncAPI.h"
 #import "NSError+GREYCommon.h"
 #import "GREYConstants.h"
 #import "GREYDefines.h"

@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Synchronization/GREYAppStateTracker.h"
+#import "GREYAppStateTracker.h"
 
 #include <objc/runtime.h>
 #include <pthread.h>
 
-#import "AppFramework/Additions/NSObject+GREYApp.h"
-#import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
-#import "AppFramework/Synchronization/GREYObjectDeallocationTracker.h"
+#import "NSObject+GREYApp.h"
+#import "GREYAppStateTrackerObject.h"
+#import "GREYObjectDeallocationTracker.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYConfiguration.h"

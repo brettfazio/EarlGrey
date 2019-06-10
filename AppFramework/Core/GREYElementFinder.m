@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Core/GREYElementFinder.h"
+#import "GREYElementFinder.h"
 
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"

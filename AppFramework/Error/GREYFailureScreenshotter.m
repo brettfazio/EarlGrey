@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Error/GREYFailureScreenshotter.h"
+#import "GREYFailureScreenshotter.h"
 
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "GREYSyncAPI.h"
 #import "GREYConfiguration.h"
 #import "GREYError.h"
 #import "GREYScreenshotter+Private.h"

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Delegate/GREYSurrogateDelegate.h"
+#import "GREYSurrogateDelegate.h"
 
 #import "GREYDefines.h"
 

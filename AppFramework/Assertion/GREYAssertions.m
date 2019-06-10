@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Assertion/GREYAssertions.h"
+#import "GREYAssertions.h"
 
-#import "AppFramework/Additions/NSObject+GREYApp.h"
-#import "AppFramework/Core/GREYInteraction.h"
-#import "AppFramework/Error/GREYAppError.h"
+#import "NSObject+GREYApp.h"
+#import "GREYInteraction.h"
+#import "GREYAppError.h"
 #import "NSObject+GREYCommon.h"
 #import "GREYAssertionBlock.h"
 #import "GREYAssertionDefines.h"

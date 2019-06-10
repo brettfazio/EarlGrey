@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYChangeStepperAction.h"
+#import "GREYChangeStepperAction.h"
 
-#import "AppFramework/Action/GREYBaseAction.h"
-#import "AppFramework/Action/GREYTapper.h"
-#import "AppFramework/Additions/NSObject+GREYApp.h"
-#import "AppFramework/Core/GREYInteraction.h"
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/Matcher/GREYAllOf.h"
-#import "AppFramework/Matcher/GREYMatchers.h"
-#import "AppFramework/Matcher/GREYNot.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "GREYBaseAction.h"
+#import "GREYTapper.h"
+#import "NSObject+GREYApp.h"
+#import "GREYInteraction.h"
+#import "GREYAppError.h"
+#import "GREYAllOf.h"
+#import "GREYMatchers.h"
+#import "GREYNot.h"
+#import "GREYSyncAPI.h"
 #import "GREYErrorConstants.h"
 #import "GREYObjectFormatter.h"
 #import "NSError+GREYCommon.h"

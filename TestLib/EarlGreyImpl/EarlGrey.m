@@ -16,8 +16,8 @@
 
 #import "TestLib/EarlGreyImpl/EarlGrey.h"
 
-#import "AppFramework/Event/GREYSyntheticEvents.h"
-#import "AppFramework/Keyboard/GREYKeyboard.h"
+#import "GREYSyntheticEvents.h"
+#import "GREYKeyboard.h"
 #import "GREYAssertionDefines.h"
 #import "GREYFatalAsserts.h"
 #import "GREYHostBackgroundDistantObject.h"

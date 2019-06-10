@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "AppFramework/IdlingResources/GREYManagedObjectContextIdlingResource.h"
+#import "GREYManagedObjectContextIdlingResource.h"
 
 #import <CoreData/CoreData.h>
 #import <objc/runtime.h>
 
-#import "AppFramework/IdlingResources/GREYDispatchQueueIdlingResource.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
+#import "GREYDispatchQueueIdlingResource.h"
+#import "GREYUIThreadExecutor+Private.h"
 #import "GREYThrowDefines.h"
 
 @implementation GREYManagedObjectContextIdlingResource {

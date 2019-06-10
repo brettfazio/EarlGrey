@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Event/GREYSyntheticEvents.h"
+#import "GREYSyntheticEvents.h"
 
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/Event/GREYTouchInjector.h"
-#import "AppFramework/Synchronization/GREYDispatchQueueTracker.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "GREYAppError.h"
+#import "GREYTouchInjector.h"
+#import "GREYDispatchQueueTracker.h"
+#import "GREYUIThreadExecutor.h"
 #import "GREYAssertionDefines.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"

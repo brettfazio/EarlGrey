@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/__NSCFLocalDataTask_GREYApp.h"
+#import "__NSCFLocalDataTask_GREYApp.h"
 
 #include <objc/runtime.h>
 
-#import "AppFramework/Additions/NSURL+GREYApp.h"
-#import "AppFramework/Synchronization/GREYAppStateTracker.h"
-#import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
+#import "NSURL+GREYApp.h"
+#import "GREYAppStateTracker.h"
+#import "GREYAppStateTrackerObject.h"
 #import "GREYFatalAsserts.h"
 #import "GREYObjcRuntime.h"
 #import "GREYSwizzler.h"

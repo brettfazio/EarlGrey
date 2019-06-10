@@ -9,25 +9,25 @@
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// WITHOUT WARRANTIES OR COKDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
 
-#import "AppFramework/Matcher/GREYMatchers.h"
+#import "GREYMatchers.h"
 
 #import <UIKit/UIKit.h>
 
 #include <objc/runtime.h>
 #include <tgmath.h>
 
-#import "AppFramework/Additions/UISwitch+GREYApp.h"
-#import "AppFramework/Core/GREYElementInteraction+Private.h"
-#import "AppFramework/Core/GREYElementInteraction.h"
-#import "AppFramework/Matcher/GREYAllOf+Private.h"
-#import "AppFramework/Matcher/GREYAllOf.h"
-#import "AppFramework/Matcher/GREYAnyOf.h"
-#import "AppFramework/Matcher/GREYNot.h"
+#import "UISwitch+GREYApp.h"
+#import "GREYElementInteraction+Private.h"
+#import "GREYElementInteraction.h"
+#import "GREYAllOf+Private.h"
+#import "GREYAllOf.h"
+#import "GREYAnyOf.h"
+#import "GREYNot.h"
 #import "NSString+GREYCommon.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"

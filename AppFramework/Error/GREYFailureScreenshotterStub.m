@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Error/GREYFailureScreenshotter.h"
+#import "GREYFailureScreenshotter.h"
 
 #import "GREYTestApplicationDistantObject.h"
 

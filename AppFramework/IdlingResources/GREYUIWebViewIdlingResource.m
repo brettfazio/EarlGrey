@@ -17,12 +17,12 @@
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 // TODO: Perform a scan of UIWebView usage and deprecate if possible. // NOLINT
 
-#import "AppFramework/IdlingResources/GREYUIWebViewIdlingResource.h"
+#import "GREYUIWebViewIdlingResource.h"
 
-#import "AppFramework/Additions/UIWebView+GREYApp.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "UIWebView+GREYApp.h"
+#import "GREYSyncAPI.h"
+#import "GREYUIThreadExecutor+Private.h"
+#import "GREYUIThreadExecutor.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYDefines.h"

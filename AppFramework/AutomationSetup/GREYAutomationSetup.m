@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/AutomationSetup/GREYAutomationSetup.h"
+#import "GREYAutomationSetup.h"
 
 #include <dlfcn.h>
 #include <execinfo.h>

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Synchronization/GREYDispatchQueueTracker.h"
+#import "GREYDispatchQueueTracker.h"
 
 #include <dlfcn.h>
 #include <fishhook.h>

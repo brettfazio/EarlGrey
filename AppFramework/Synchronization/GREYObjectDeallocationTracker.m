@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Synchronization/GREYObjectDeallocationTracker.h"
+#import "GREYObjectDeallocationTracker.h"
 
 #import <objc/runtime.h>
 

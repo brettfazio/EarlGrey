@@ -16,10 +16,10 @@
 
 #import <XCTest/XCTest.h>
 
-#import "AppFramework/Action/GREYAction.h"
-#import "AppFramework/Action/GREYActionsShorthand.h"
-#import "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h"
-#import "AppFramework/Matcher/GREYMatchersShorthand.h"
+#import "GREYAction.h"
+#import "GREYActionsShorthand.h"
+#import "GREYHostBackgroundDistantObject+GREYApp.h"
+#import "GREYMatchersShorthand.h"
 #import "GREYAssertionBlock.h"
 #import "GREYConfiguration.h"
 #import "GREYHostApplicationDistantObject.h"

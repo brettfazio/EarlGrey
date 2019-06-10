@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Matcher/GREYAnyOf.h"
+#import "GREYAnyOf.h"
 
 #import "GREYThrowDefines.h"
 #import "GREYStringDescription.h"

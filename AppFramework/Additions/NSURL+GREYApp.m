@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/NSURL+GREYApp.h"
+#import "NSURL+GREYApp.h"
 
 #import <objc/runtime.h>
 

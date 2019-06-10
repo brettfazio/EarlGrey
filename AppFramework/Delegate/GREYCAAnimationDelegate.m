@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Delegate/GREYCAAnimationDelegate.h"
+#import "GREYCAAnimationDelegate.h"
 
 #include <objc/message.h>
 #include <objc/runtime.h>
 
-#import "AppFramework/Additions/CAAnimation+GREYApp.h"
+#import "CAAnimation+GREYApp.h"
 #import "GREYFatalAsserts.h"
 #import "GREYDefines.h"
 #import "GREYLogger.h"

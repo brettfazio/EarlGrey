@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/UIWindow+GREYApp.h"
+#import "UIWindow+GREYApp.h"
 
 #include <objc/runtime.h>
 
-#import "AppFramework/Additions/UIViewController+GREYApp.h"
-#import "AppFramework/Synchronization/GREYAppStateTracker.h"
+#import "UIViewController+GREYApp.h"
+#import "GREYAppStateTracker.h"
 #import "GREYFatalAsserts.h"
 #import "GREYSwizzler.h"
 

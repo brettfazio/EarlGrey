@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYAction.h"
+#import "GREYAction.h"
 
 @protocol GREYMatcher;
 

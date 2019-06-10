@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Matcher/GREYNot.h"
+#import "GREYNot.h"
 
 #import "GREYThrowDefines.h"
 

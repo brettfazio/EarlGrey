@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "GREYUIThreadExecutor.h"
 
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/IdlingResources/GREYDispatchQueueIdlingResource.h"
-#import "AppFramework/IdlingResources/GREYIdlingResource.h"
-#import "AppFramework/IdlingResources/GREYOperationQueueIdlingResource.h"
-#import "AppFramework/Synchronization/GREYAppStateTracker.h"
-#import "AppFramework/Synchronization/GREYRunLoopSpinner.h"
+#import "GREYAppError.h"
+#import "GREYDispatchQueueIdlingResource.h"
+#import "GREYIdlingResource.h"
+#import "GREYOperationQueueIdlingResource.h"
+#import "GREYAppStateTracker.h"
+#import "GREYRunLoopSpinner.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYConfiguration.h"

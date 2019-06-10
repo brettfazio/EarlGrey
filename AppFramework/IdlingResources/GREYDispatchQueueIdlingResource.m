@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "AppFramework/IdlingResources/GREYDispatchQueueIdlingResource.h"
+#import "GREYDispatchQueueIdlingResource.h"
 
-#import "AppFramework/Synchronization/GREYDispatchQueueTracker.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
+#import "GREYDispatchQueueTracker.h"
+#import "GREYUIThreadExecutor+Private.h"
 #import "GREYThrowDefines.h"
 
 @implementation GREYDispatchQueueIdlingResource {

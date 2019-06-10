@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Event/GREYTouchInjector.h"
+#import "GREYTouchInjector.h"
 
 #import <QuartzCore/QuartzCore.h>
 #include <mach/mach_time.h>
 
-#import "AppFramework/Additions/UIWebView+GREYApp.h"
-#import "AppFramework/Event/GREYIOHIDEventTypes.h"
-#import "AppFramework/Synchronization/GREYRunLoopSpinner.h"
+#import "UIWebView+GREYApp.h"
+#import "GREYIOHIDEventTypes.h"
+#import "GREYRunLoopSpinner.h"
 #import "NSObject+GREYCommon.h"
 #import "GREYAssertionDefines.h"
 #import "GREYFatalAsserts.h"

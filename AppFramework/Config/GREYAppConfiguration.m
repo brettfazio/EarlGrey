@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Config/GREYAppConfiguration.h"
+#import "GREYAppConfiguration.h"
 
 #import "GREYConfiguration+Private.h"
 #import "GREYHostApplicationDistantObject.h"

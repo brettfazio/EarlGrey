@@ -16,14 +16,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppFramework/Action/GREYActions.h"
-#import "AppFramework/Event/GREYSyntheticEvents.h"
-#import "AppFramework/Keyboard/GREYKeyboard.h"
-#import "AppFramework/Matcher/GREYAllOf.h"
-#import "AppFramework/Matcher/GREYAnyOf.h"
-#import "AppFramework/Matcher/GREYMatchers.h"
-#import "AppFramework/Matcher/GREYNot.h"
-#import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+#import "GREYActions.h"
+#import "GREYSyntheticEvents.h"
+#import "GREYKeyboard.h"
+#import "GREYAllOf.h"
+#import "GREYAnyOf.h"
+#import "GREYMatchers.h"
+#import "GREYNot.h"
+#import "GREYUIThreadExecutor.h"
 #import "GREYConfiguration.h"
 #import "GREYHostApplicationDistantObject.h"
 #import "GREYHostBackgroundDistantObject.h"

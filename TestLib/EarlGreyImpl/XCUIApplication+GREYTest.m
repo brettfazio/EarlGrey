@@ -18,7 +18,7 @@
 
 #include <objc/runtime.h>
 
-#import "AppFramework/DistantObject/GREYHostApplicationDistantObject+GREYTestHelper.h"
+#import "GREYHostApplicationDistantObject+GREYTestHelper.h"
 #import "GREYFatalAsserts.h"
 #import "GREYTestApplicationDistantObject+Private.h"
 #import "GREYTestApplicationDistantObject.h"

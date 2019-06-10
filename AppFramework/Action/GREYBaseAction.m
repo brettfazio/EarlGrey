@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYBaseAction.h"
+#import "GREYBaseAction.h"
 
-#import "AppFramework/Additions/NSObject+GREYApp.h"
-#import "AppFramework/Core/GREYInteraction.h"
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "NSObject+GREYApp.h"
+#import "GREYInteraction.h"
+#import "GREYAppError.h"
+#import "GREYSyncAPI.h"
 #import "NSObject+GREYCommon.h"
 #import "GREYAssertionDefines.h"
 #import "GREYThrowDefines.h"

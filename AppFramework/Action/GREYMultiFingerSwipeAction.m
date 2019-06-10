@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYMultiFingerSwipeAction.h"
+#import "GREYMultiFingerSwipeAction.h"
 
-#import "AppFramework/Action/GREYPathGestureUtils.h"
-#import "AppFramework/Additions/NSObject+GREYApp.h"
-#import "AppFramework/Error/GREYAppError.h"
-#import "AppFramework/Event/GREYSyntheticEvents.h"
-#import "AppFramework/Matcher/GREYAllOf.h"
-#import "AppFramework/Matcher/GREYMatchers.h"
-#import "AppFramework/Matcher/GREYNot.h"
-#import "AppFramework/Synchronization/GREYSyncAPI.h"
+#import "GREYPathGestureUtils.h"
+#import "NSObject+GREYApp.h"
+#import "GREYAppError.h"
+#import "GREYSyntheticEvents.h"
+#import "GREYAllOf.h"
+#import "GREYMatchers.h"
+#import "GREYNot.h"
+#import "GREYSyncAPI.h"
 #import "NSObject+GREYCommon.h"
 #import "NSString+GREYCommon.h"
 #import "GREYFatalAsserts.h"

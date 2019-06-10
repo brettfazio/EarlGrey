@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYActionBlock.h"
+#import "GREYActionBlock.h"
 
 #import "GREYThrowDefines.h"
 #import "GREYDefines.h"

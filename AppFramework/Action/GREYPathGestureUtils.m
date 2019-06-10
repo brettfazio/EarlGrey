@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Action/GREYPathGestureUtils.h"
+#import "GREYPathGestureUtils.h"
 
 #include <objc/message.h>
 
-#import "AppFramework/Additions/UIScrollView+GREYApp.h"
+#import "UIScrollView+GREYApp.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYConstants.h"

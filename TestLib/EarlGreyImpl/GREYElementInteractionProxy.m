@@ -18,7 +18,7 @@
 
 #include <stdatomic.h>
 
-#import "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h"
+#import "GREYHostBackgroundDistantObject+GREYApp.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYError.h"

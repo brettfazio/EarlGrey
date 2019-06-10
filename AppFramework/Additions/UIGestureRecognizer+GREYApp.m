@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/UIGestureRecognizer+GREYApp.h"
+#import "UIGestureRecognizer+GREYApp.h"
 
 #import <UIKit/UIGestureRecognizerSubclass.h>
 #include <objc/runtime.h>
 
-#import "AppFramework/Synchronization/GREYAppStateTracker.h"
-#import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
+#import "GREYAppStateTracker.h"
+#import "GREYAppStateTrackerObject.h"
 #import "GREYFatalAsserts.h"
 #import "GREYSwizzler.h"
 

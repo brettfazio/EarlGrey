@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "AppFramework/Additions/NSTimer+GREYApp.h"
+#import "NSTimer+GREYApp.h"
 
-#import "AppFramework/IdlingResources/GREYNSTimerIdlingResource.h"
+#import "GREYNSTimerIdlingResource.h"
 #import "GREYFatalAsserts.h"
 #import "GREYConfiguration.h"
 #import "GREYSwizzler.h"

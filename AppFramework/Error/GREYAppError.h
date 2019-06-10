@@ -18,7 +18,7 @@
 
 #import "GREYDefines.h"
 
-#import "AppFramework/Error/GREYFailureScreenshotter.h"
+#import "GREYFailureScreenshotter.h"
 #import "GREYError.h"
 #import "GREYElementHierarchy.h"
 

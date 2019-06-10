@@ -16,7 +16,7 @@
 
 #import "TestLib/Config/GREYTestConfiguration.h"
 
-#import "AppFramework/Config/GREYAppConfiguration.h"
+#import "GREYAppConfiguration.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYAppState.h"
