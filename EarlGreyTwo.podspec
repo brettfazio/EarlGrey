@@ -10,8 +10,18 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "removed" }
 
   # Subspec each folder so folders exist when pod is installed.
-  s.source_files = Dir.glob("**/*.{m,h}")
-  s.public_header_files = Dir.glob("**/*.h")
+  
+  allf = Dir.glob("**/*.{m,h}")
+  allh = Dir.glob("**/*.h")
+  
+  alltestf = Dir.glob("Tests/**/*.{m,h}")
+  alltesth = Dir.glob("Tests/**/*.h")
+  
+  sour = allf - alltestf
+  head = allh - alltesth
+  
+  s.source_files = sour
+  s.public_header_files = head
 
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
