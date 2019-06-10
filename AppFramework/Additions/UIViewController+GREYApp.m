@@ -20,10 +20,10 @@
 
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYAppleInternals.h"
-#import "CommonLib/GREYLogger.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYAppleInternals.h"
+#import "GREYLogger.h"
+#import "GREYSwizzler.h"
 
 /**
  *  The class for UICompatibilityInputViewController and UIEditingOverlayViewControllerwhich isn't

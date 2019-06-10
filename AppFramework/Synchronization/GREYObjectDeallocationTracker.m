@@ -18,7 +18,7 @@
 
 #import <objc/runtime.h>
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
+#import "GREYThrowDefines.h"
 
 @interface GREYObjectDeallocationTracker ()
 

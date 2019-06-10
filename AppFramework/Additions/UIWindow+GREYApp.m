@@ -20,8 +20,8 @@
 
 #import "AppFramework/Additions/UIViewController+GREYApp.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYSwizzler.h"
 
 @implementation UIWindow (GREYApp)
 

@@ -22,9 +22,9 @@
 #import "AppFramework/Delegate/GREYCAAnimationDelegate.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYDefines.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYDefines.h"
+#import "GREYSwizzler.h"
 
 @implementation CAAnimation (GREYApp)
 

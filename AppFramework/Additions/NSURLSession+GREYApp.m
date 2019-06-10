@@ -21,9 +21,9 @@
 #import "AppFramework/Additions/NSURL+GREYApp.h"
 #import "AppFramework/Additions/__NSCFLocalDataTask_GREYApp.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYObjcRuntime.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYObjcRuntime.h"
+#import "GREYSwizzler.h"
 
 /**
  *  Type of the handlers used as NSURLSessionTask's completion blocks.

@@ -18,9 +18,9 @@
 
 #import <objc/runtime.h>
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYAppleInternals.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYThrowDefines.h"
+#import "GREYAppleInternals.h"
+#import "GREYDefines.h"
 #import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
 #import "TestLib/Assertion/GREYAssertionDefines.h"
 #import "TestLib/Condition/GREYCondition.h"

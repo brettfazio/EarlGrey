@@ -17,9 +17,9 @@
 #import "AppFramework/Additions/NSTimer+GREYApp.h"
 
 #import "AppFramework/IdlingResources/GREYNSTimerIdlingResource.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYConfiguration.h"
+#import "GREYSwizzler.h"
 
 @implementation NSTimer (GREYApp)
 

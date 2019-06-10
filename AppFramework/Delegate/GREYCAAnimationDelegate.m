@@ -20,11 +20,11 @@
 #include <objc/runtime.h>
 
 #import "AppFramework/Additions/CAAnimation+GREYApp.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYDefines.h"
-#import "CommonLib/GREYLogger.h"
-#import "CommonLib/GREYObjcRuntime.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYDefines.h"
+#import "GREYLogger.h"
+#import "GREYObjcRuntime.h"
+#import "GREYSwizzler.h"
 
 /**
  *  Intercepts the CAAnimationDelegate::animationDidStart: call and directs it to the correct

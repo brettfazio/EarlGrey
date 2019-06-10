@@ -20,14 +20,14 @@
 #import "AppFramework/Event/GREYTouchInjector.h"
 #import "AppFramework/Synchronization/GREYDispatchQueueTracker.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Assertion/GREYAssertionDefines.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Error/GREYErrorConstants.h"
-#import "CommonLib/Event/GREYTouchInfo.h"
-#import "CommonLib/GREYAppleInternals.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYLogger.h"
+#import "GREYAssertionDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYErrorConstants.h"
+#import "GREYTouchInfo.h"
+#import "GREYAppleInternals.h"
+#import "GREYConstants.h"
+#import "GREYLogger.h"
 
 #pragma mark - Implementation
 

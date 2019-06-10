@@ -19,12 +19,12 @@
 #include <objc/message.h>
 
 #import "AppFramework/Additions/UIScrollView+GREYApp.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYDefines.h"
-#import "UILib/Additions/CGGeometry+GREYUI.h"
-#import "UILib/GREYVisibilityChecker.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYConstants.h"
+#import "GREYDefines.h"
+#import "CGGeometry+GREYUI.h"
+#import "GREYVisibilityChecker.h"
 
 /**
  *  Refers to the minimum 10 points of scroll that is required for any scroll to be detected.

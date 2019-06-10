@@ -18,13 +18,13 @@
 
 #import <XCTest/XCTest.h>
 
-#import "CommonLib/Additions/NSString+GREYCommon.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/GREYLogger.h"
+#import "NSString+GREYCommon.h"
+#import "GREYConfiguration.h"
+#import "GREYLogger.h"
 #import "TestLib/Analytics/GREYAnalyticsDelegate.h"
 #import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
 #import "TestLib/XCTestCase/XCTestCase+GREYTest.h"
-#import "UILib/GREYVisibilityChecker.h"
+#import "GREYVisibilityChecker.h"
 
 /**
  *  The Analytics tracking ID that receives EarlGrey usage data.

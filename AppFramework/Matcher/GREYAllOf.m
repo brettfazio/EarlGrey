@@ -17,9 +17,9 @@
 #import "AppFramework/Matcher/GREYAllOf.h"
 #import "AppFramework/Matcher/GREYAllOf+Private.h"
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Matcher/GREYDescription.h"
-#import "CommonLib/Matcher/GREYStringDescription.h"
+#import "GREYThrowDefines.h"
+#import "GREYDescription.h"
+#import "GREYStringDescription.h"
 
 @implementation GREYAllOf {
   NSArray<id<GREYMatcher>> *_matchers;

@@ -30,11 +30,11 @@
 
 // Assertion Headers
 #import "AppFramework/Assertion/GREYAssertions.h"
-#import "CommonLib/Assertion/GREYAssertionBlock.h"
+#import "GREYAssertionBlock.h"
 
 // Matcher Headers.
 #import "AppFramework/Matcher/GREYMatchers.h"
-#import "CommonLib/Matcher/GREYElementMatcherBlock.h"
+#import "GREYElementMatcherBlock.h"
 
 // Synchronization Headers.
 #import "AppFramework/Synchronization/GREYSyncAPI.h"

@@ -16,7 +16,7 @@
 
 #import "AppFramework/Matcher/GREYNot.h"
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
+#import "GREYThrowDefines.h"
 
 @implementation GREYNot {
   id<GREYMatcher> _matcher;

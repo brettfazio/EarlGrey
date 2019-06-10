@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "UILib/Traversal/GREYTraversalDFS.h"
+#import "GREYTraversalDFS.h"
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
+#import "GREYThrowDefines.h"
 
 @implementation GREYTraversalDFS {
   /**

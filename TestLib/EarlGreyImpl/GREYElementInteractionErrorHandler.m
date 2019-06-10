@@ -16,10 +16,10 @@
 
 #import "TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h"
 
-#import "CommonLib/Assertion/GREYAssertionDefines.h"
-#import "CommonLib/Error/GREYErrorConstants.h"
-#import "CommonLib/Exceptions/GREYFailureHandler.h"
-#import "CommonLib/Exceptions/GREYFrameworkException.h"
+#import "GREYAssertionDefines.h"
+#import "GREYErrorConstants.h"
+#import "GREYFailureHandler.h"
+#import "GREYFrameworkException.h"
 
 @implementation GREYElementInteractionErrorHandler
 

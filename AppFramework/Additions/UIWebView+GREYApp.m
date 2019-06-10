@@ -27,8 +27,8 @@
 #import "AppFramework/IdlingResources/GREYTimedIdlingResource.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYSwizzler.h"
 
 /**
  *  Key for tracking the web view's loading state. Used to track the web view with respect to its

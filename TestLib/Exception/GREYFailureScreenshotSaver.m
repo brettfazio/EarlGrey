@@ -15,9 +15,9 @@
 //
 #import "TestLib/Exception/GREYFailureScreenshotSaver.h"
 
-#import "CommonLib/Additions/NSFileManager+GREYCommon.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/Error/GREYError.h"
+#import "NSFileManager+GREYCommon.h"
+#import "GREYConfiguration.h"
+#import "GREYError.h"
 
 @implementation GREYFailureScreenshotSaver
 

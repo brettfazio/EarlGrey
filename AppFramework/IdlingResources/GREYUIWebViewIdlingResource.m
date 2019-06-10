@@ -23,9 +23,9 @@
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYDefines.h"
 
 /**
  *  The maximum number of render passes to wait for before the UIWebView can be considered idle.

@@ -18,8 +18,8 @@
 
 #import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYThrowDefines.h"
+#import "GREYDefines.h"
 @implementation GREYNSTimerIdlingResource {
   NSString *_name;
   __weak NSTimer *_trackedTimer;

@@ -21,7 +21,7 @@
 
 #import "AppFramework/IdlingResources/GREYDispatchQueueIdlingResource.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor+Private.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
+#import "GREYThrowDefines.h"
 
 @implementation GREYManagedObjectContextIdlingResource {
   BOOL _trackPendingChanges;

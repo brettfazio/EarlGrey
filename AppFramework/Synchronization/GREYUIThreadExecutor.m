@@ -22,13 +22,13 @@
 #import "AppFramework/IdlingResources/GREYOperationQueueIdlingResource.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYRunLoopSpinner.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYDefines.h"
-#import "CommonLib/GREYLogger.h"
-#import "CommonLib/GREYStopwatch.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYConfiguration.h"
+#import "GREYConstants.h"
+#import "GREYDefines.h"
+#import "GREYLogger.h"
+#import "GREYStopwatch.h"
 
 // Extern.
 NSString *const kGREYUIThreadExecutorErrorDomain =

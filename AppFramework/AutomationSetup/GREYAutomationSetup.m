@@ -21,9 +21,9 @@
 #include <objc/runtime.h>
 #include <signal.h>
 
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYAppleInternals.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYAppleInternals.h"
+#import "GREYDefines.h"
 #import "TestLib/DistantObject/GREYTestApplicationDistantObject+GREYLogger.h"
 
 // Exception handler that was previously installed before we replaced it with our own.

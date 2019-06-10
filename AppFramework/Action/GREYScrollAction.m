@@ -30,12 +30,12 @@
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Additions/NSString+GREYCommon.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Error/GREYScrollActionError.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
-#import "UILib/Additions/CGGeometry+GREYUI.h"
+#import "NSString+GREYCommon.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYScrollActionError.h"
+#import "NSError+GREYCommon.h"
+#import "CGGeometry+GREYUI.h"
 
 /**
  *  Scroll views under web views take at least (depending on speed of execution environment) two

@@ -16,7 +16,7 @@
 
 #import "AppFramework/DistantObject/GREYHostApplicationDistantObject+GREYTestHelper.h"
 
-#import "UILib/Provider/GREYUIWindowProvider.h"
+#import "GREYUIWindowProvider.h"
 
 @implementation GREYHostApplicationDistantObject (GREYTestHelper)
 

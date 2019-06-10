@@ -15,7 +15,7 @@
 //
 
 #import "AppFramework/Action/GREYBaseAction.h"
-#import "CommonLib/GREYConstants.h"
+#import "GREYConstants.h"
 
 /**
  *  A GREYAction that implements a scroll action that scrolls the contents of the matched

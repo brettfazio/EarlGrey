@@ -15,7 +15,7 @@
 //
 
 #import "AppFramework/Action/GREYBaseAction.h"
-#import "CommonLib/GREYConstants.h"
+#import "GREYConstants.h"
 
 /**
  *  Error domain used for pinch related NSError objects.

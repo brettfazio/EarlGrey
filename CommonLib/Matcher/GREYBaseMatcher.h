@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CommonLib/Matcher/GREYMatcher.h"
+#import "GREYMatcher.h"
 
 /**
  *  A base class that implements the GREYMatcher protocol methods.

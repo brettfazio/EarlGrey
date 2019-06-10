@@ -16,9 +16,9 @@
 
 #import "TestLib/EarlGreyImpl/EarlGreyImpl+XCUIApplication.h"
 
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Error/GREYError.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYError.h"
+#import "GREYDefines.h"
 #import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
 #import "TestLib/Condition/GREYCondition.h"
 

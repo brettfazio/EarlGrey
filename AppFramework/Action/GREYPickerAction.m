@@ -24,8 +24,8 @@
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
-#import "CommonLib/GREYDefines.h"
+#import "NSError+GREYCommon.h"
+#import "GREYDefines.h"
 
 @implementation GREYPickerAction {
   /**

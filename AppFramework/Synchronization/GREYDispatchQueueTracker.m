@@ -21,9 +21,9 @@
 #include <libkern/OSAtomic.h>
 #include <stdatomic.h>
 
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Config/GREYConfiguration.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYConfiguration.h"
 
 /**
  *  A pointer to the original implementation of @c dispatch_after.

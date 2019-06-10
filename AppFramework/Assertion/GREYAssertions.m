@@ -19,13 +19,13 @@
 #import "AppFramework/Additions/NSObject+GREYApp.h"
 #import "AppFramework/Core/GREYInteraction.h"
 #import "AppFramework/Error/GREYAppError.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Assertion/GREYAssertionBlock.h"
-#import "CommonLib/Assertion/GREYAssertionDefines.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/GREYLogger.h"
-#import "CommonLib/Matcher/GREYMatcher.h"
-#import "CommonLib/Matcher/GREYStringDescription.h"
+#import "NSObject+GREYCommon.h"
+#import "GREYAssertionBlock.h"
+#import "GREYAssertionDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYLogger.h"
+#import "GREYMatcher.h"
+#import "GREYStringDescription.h"
 
 @implementation GREYAssertions
 

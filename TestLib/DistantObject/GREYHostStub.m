@@ -24,10 +24,10 @@
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
-#import "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h"
-#import "CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "GREYConfiguration.h"
+#import "GREYHostApplicationDistantObject.h"
+#import "GREYHostBackgroundDistantObject.h"
+#import "GREYTestApplicationDistantObject.h"
 #import "Service/Sources/EDOClientService.h"
 
 // Stub classes defined in the host (app under test)

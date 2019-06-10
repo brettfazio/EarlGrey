@@ -26,13 +26,13 @@
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
 #import "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
-#import "CommonLib/GREYDefines.h"
-#import "UILib/Additions/CGGeometry+GREYUI.h"
-#import "UILib/GREYVisibilityChecker.h"
+#import "NSObject+GREYCommon.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "NSError+GREYCommon.h"
+#import "GREYDefines.h"
+#import "CGGeometry+GREYUI.h"
+#import "GREYVisibilityChecker.h"
 
 @implementation GREYTapAction {
   /**

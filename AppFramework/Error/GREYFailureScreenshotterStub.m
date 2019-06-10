@@ -16,6 +16,6 @@
 
 #import "AppFramework/Error/GREYFailureScreenshotter.h"
 
-#import "CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "GREYTestApplicationDistantObject.h"
 
 GREY_STUB_CLASS_IN_APP_MAIN_QUEUE(GREYFailureScreenshotter)

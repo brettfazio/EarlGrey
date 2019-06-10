@@ -23,12 +23,12 @@
 #import "AppFramework/Matcher/GREYAnyOf.h"
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
-#import "CommonLib/Additions/NSString+GREYCommon.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Error/GREYScrollActionError.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
-#import "UILib/Additions/CGGeometry+GREYUI.h"
-#import "UILib/GREYVisibilityChecker.h"
+#import "NSString+GREYCommon.h"
+#import "GREYFatalAsserts.h"
+#import "GREYScrollActionError.h"
+#import "NSError+GREYCommon.h"
+#import "CGGeometry+GREYUI.h"
+#import "GREYVisibilityChecker.h"
 
 @implementation GREYScrollToContentEdgeAction {
   /**

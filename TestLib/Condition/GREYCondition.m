@@ -19,10 +19,10 @@
 #import <QuartzCore/QuartzCore.h>
 #import <mach/mach_time.h>
 
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYConstants.h"
+#import "GREYDefines.h"
 
 @implementation GREYCondition {
   BOOL (^_conditionBlock)(void);

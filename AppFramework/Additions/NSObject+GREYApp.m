@@ -20,12 +20,12 @@
 
 #import "AppFramework/IdlingResources/GREYTimedIdlingResource.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYSwizzler.h"
-#import "UILib/GREYElementHierarchy.h"
+#import "NSObject+GREYCommon.h"
+#import "GREYFatalAsserts.h"
+#import "GREYConfiguration.h"
+#import "GREYConstants.h"
+#import "GREYSwizzler.h"
+#import "GREYElementHierarchy.h"
 
 @implementation NSObject (GREYApp)
 

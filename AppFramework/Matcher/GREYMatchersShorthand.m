@@ -20,7 +20,7 @@
 #import "AppFramework/Matcher/GREYAnyOf.h"
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
-#import "CommonLib/Matcher/GREYMatcher.h"
+#import "GREYMatcher.h"
 
 #if !defined(GREY_DISABLE_SHORTHAND) || !(GREY_DISABLE_SHORTHAND)
 

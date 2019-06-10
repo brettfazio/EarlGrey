@@ -22,11 +22,11 @@
 #import "AppFramework/Additions/UIWebView+GREYApp.h"
 #import "AppFramework/Event/GREYIOHIDEventTypes.h"
 #import "AppFramework/Synchronization/GREYRunLoopSpinner.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Assertion/GREYAssertionDefines.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Config/GREYConfiguration.h"
+#import "NSObject+GREYCommon.h"
+#import "GREYAssertionDefines.h"
+#import "GREYFatalAsserts.h"
+#import "GREYThrowDefines.h"
+#import "GREYConfiguration.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"

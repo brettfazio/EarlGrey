@@ -16,9 +16,9 @@
 
 #import "AppFramework/Action/GREYActionBlock.h"
 
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/GREYDefines.h"
-#import "CommonLib/Matcher/GREYMatcher.h"
+#import "GREYThrowDefines.h"
+#import "GREYDefines.h"
+#import "GREYMatcher.h"
 
 @implementation GREYActionBlock {
   GREYPerformBlock _performBlock;

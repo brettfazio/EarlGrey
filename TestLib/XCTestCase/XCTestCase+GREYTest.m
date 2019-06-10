@@ -18,10 +18,10 @@
 
 #include <objc/runtime.h>
 
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
-#import "CommonLib/Exceptions/GREYFrameworkException.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYTestApplicationDistantObject.h"
+#import "GREYFrameworkException.h"
+#import "GREYSwizzler.h"
 #import "TestLib/XCTestCase/GREYTestCaseInvocation.h"
 
 /**

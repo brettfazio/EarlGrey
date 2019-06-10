@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
-#import "CommonLib/DistantObject/GREYTestApplicationDistantObject.h"
+#import "GREYHostApplicationDistantObject.h"
+#import "GREYTestApplicationDistantObject.h"
 #import "Service/Sources/EDOClientService.h"
 
 /// Stub classes defined in the test.

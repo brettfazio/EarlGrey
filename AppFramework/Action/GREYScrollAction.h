@@ -15,7 +15,7 @@
 //
 
 #import "AppFramework/Action/GREYBaseAction.h"
-#import "CommonLib/GREYConstants.h"
+#import "GREYConstants.h"
 
 /**
  *  A GREYAction that implements the scroll action.

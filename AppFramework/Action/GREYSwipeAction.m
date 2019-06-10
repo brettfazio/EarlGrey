@@ -24,11 +24,11 @@
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Additions/NSString+GREYCommon.h"
-#import "CommonLib/Assertion/GREYThrowDefines.h"
-#import "CommonLib/Error/GREYErrorConstants.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
+#import "NSObject+GREYCommon.h"
+#import "NSString+GREYCommon.h"
+#import "GREYThrowDefines.h"
+#import "GREYErrorConstants.h"
+#import "NSError+GREYCommon.h"
 
 @implementation GREYSwipeAction {
   /**

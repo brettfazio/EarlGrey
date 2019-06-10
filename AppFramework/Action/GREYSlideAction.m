@@ -25,11 +25,11 @@
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYDefines.h"
-#import "CommonLib/GREYLogger.h"
-#import "UILib/Additions/CGGeometry+GREYUI.h"
+#import "NSError+GREYCommon.h"
+#import "GREYConstants.h"
+#import "GREYDefines.h"
+#import "GREYLogger.h"
+#import "CGGeometry+GREYUI.h"
 
 @implementation GREYSlideAction {
   /**

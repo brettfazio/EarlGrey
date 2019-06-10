@@ -26,10 +26,10 @@
 #import "AppFramework/Matcher/GREYMatchers.h"
 #import "AppFramework/Matcher/GREYNot.h"
 #import "AppFramework/Synchronization/GREYSyncAPI.h"
-#import "CommonLib/Additions/NSObject+GREYCommon.h"
-#import "CommonLib/Error/GREYErrorConstants.h"
-#import "CommonLib/Error/GREYObjectFormatter.h"
-#import "CommonLib/Error/NSError+GREYCommon.h"
+#import "NSObject+GREYCommon.h"
+#import "GREYErrorConstants.h"
+#import "GREYObjectFormatter.h"
+#import "NSError+GREYCommon.h"
 
 /**
  *  Reduce the magnitude of vector in the direction of pinch action to make sure that it is minimum

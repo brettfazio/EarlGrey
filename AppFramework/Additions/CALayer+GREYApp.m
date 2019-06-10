@@ -22,10 +22,10 @@
 #import "AppFramework/Additions/NSObject+GREYApp.h"
 #import "AppFramework/Synchronization/GREYAppStateTracker.h"
 #import "AppFramework/Synchronization/GREYAppStateTrackerObject.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
-#import "CommonLib/Config/GREYConfiguration.h"
-#import "CommonLib/GREYLogger.h"
-#import "CommonLib/GREYSwizzler.h"
+#import "GREYFatalAsserts.h"
+#import "GREYConfiguration.h"
+#import "GREYLogger.h"
+#import "GREYSwizzler.h"
 
 @implementation CALayer (GREYApp)
 

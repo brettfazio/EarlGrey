@@ -16,7 +16,7 @@
 #import "AppFramework/Synchronization/GREYRunLoopSpinner.h"
 
 #import "AppFramework/Additions/UIApplication+GREYApp.h"
-#import "CommonLib/Assertion/GREYFatalAsserts.h"
+#import "GREYFatalAsserts.h"
 
 /**
  *  The default minimum number of runloop drains. The default is 2 because, as per the CFRunLoop
