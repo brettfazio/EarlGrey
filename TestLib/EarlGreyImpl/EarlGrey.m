@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/EarlGreyImpl/EarlGrey.h"
+#import "EarlGrey.h"
 
 #import "GREYSyntheticEvents.h"
 #import "GREYKeyboard.h"
@@ -26,12 +26,12 @@
 #import "GREYErrorConstants.h"
 #import "GREYAppleInternals.h"
 #import "GREYLogger.h"
-#import "TestLib/Analytics/GREYAnalytics.h"
-#import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
-#import "TestLib/EarlGreyImpl/EarlGreyImpl+XCUIApplication.h"
-#import "TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h"
-#import "TestLib/EarlGreyImpl/GREYElementInteractionProxy.h"
-#import "TestLib/Exception/GREYDefaultFailureHandler.h"
+#import "GREYAnalytics.h"
+#import "GREYXCTestAppleInternals.h"
+#import "EarlGreyImpl+XCUIApplication.h"
+#import "GREYElementInteractionErrorHandler.h"
+#import "GREYElementInteractionProxy.h"
+#import "GREYDefaultFailureHandler.h"
 
 /**
  *  Sets EarlGrey provided default failure handler if there's no failure handler set for the current

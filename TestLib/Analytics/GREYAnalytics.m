@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "TestLib/Analytics/GREYAnalytics.h"
+#import "GREYAnalytics.h"
 
 #import <XCTest/XCTest.h>
 
 #import "NSString+GREYCommon.h"
 #import "GREYConfiguration.h"
 #import "GREYLogger.h"
-#import "TestLib/Analytics/GREYAnalyticsDelegate.h"
-#import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
-#import "TestLib/XCTestCase/XCTestCase+GREYTest.h"
+#import "GREYAnalyticsDelegate.h"
+#import "GREYXCTestAppleInternals.h"
+#import "XCTestCase+GREYTest.h"
 #import "GREYVisibilityChecker.h"
 
 /**

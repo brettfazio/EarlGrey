@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/EarlGreyImpl/GREYElementInteractionProxy.h"
+#import "GREYElementInteractionProxy.h"
 
 #include <stdatomic.h>
 
@@ -22,7 +22,7 @@
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYError.h"
-#import "TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h"
+#import "GREYElementInteractionErrorHandler.h"
 #import "Service/Sources/EDOHostService.h"
 
 @implementation GREYElementInteractionProxy {

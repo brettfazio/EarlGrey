@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "TestLib/EarlGreyImpl/EarlGreyImpl+XCUIApplication.h"
+#import "EarlGreyImpl+XCUIApplication.h"
 
 #import "GREYFatalAsserts.h"
 #import "GREYError.h"
 #import "GREYDefines.h"
-#import "TestLib/AppleInternals/GREYXCTestAppleInternals.h"
-#import "TestLib/Condition/GREYCondition.h"
+#import "GREYXCTestAppleInternals.h"
+#import "GREYCondition.h"
 
 /**
  *  Amount to scroll to move to the next springboard page.

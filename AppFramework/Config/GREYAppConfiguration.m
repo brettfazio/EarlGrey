@@ -19,7 +19,7 @@
 #import "GREYConfiguration+Private.h"
 #import "GREYHostApplicationDistantObject.h"
 #import "GREYHostBackgroundDistantObject.h"
-#import "TestLib/Config/GREYTestConfiguration.h"
+#import "GREYTestConfiguration.h"
 #import "Service/Sources/NSObject+EDOValueObject.h"
 
 GREYConfiguration *GREYCreateConfiguration(void) { return [[GREYAppConfiguration alloc] init]; }

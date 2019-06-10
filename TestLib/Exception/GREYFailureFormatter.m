@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "TestLib/Exception/GREYFailureFormatter.h"
+#import "GREYFailureFormatter.h"
 
 #import "GREYError+Private.h"
 #import "GREYError.h"
 #import "GREYObjectFormatter.h"
-#import "TestLib/XCTestCase/XCTestCase+GREYTest.h"
+#import "XCTestCase+GREYTest.h"
 
 @implementation GREYFailureFormatter
 

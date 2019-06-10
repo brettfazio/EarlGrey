@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/Exception/GREYDefaultFailureHandler.h"
+#import "GREYDefaultFailureHandler.h"
 
 #import <XCTest/XCTest.h>
 
@@ -25,9 +25,9 @@
 #import "GREYConfiguration.h"
 #import "GREYErrorConstants.h"
 #import "GREYFrameworkException.h"
-#import "TestLib/Exception/GREYFailureFormatter.h"
-#import "TestLib/Exception/GREYFailureScreenshotSaver.h"
-#import "TestLib/XCTestCase/XCTestCase+GREYTest.h"
+#import "GREYFailureFormatter.h"
+#import "GREYFailureScreenshotSaver.h"
+#import "XCTestCase+GREYTest.h"
 #import "GREYElementHierarchy.h"
 
 // Counter that is incremented each time a failure occurs in an unknown test.

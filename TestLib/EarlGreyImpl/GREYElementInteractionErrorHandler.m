@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h"
+#import "GREYElementInteractionErrorHandler.h"
 
 #import "GREYAssertionDefines.h"
 #import "GREYErrorConstants.h"

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/Config/GREYTestConfiguration.h"
+#import "GREYTestConfiguration.h"
 
 #import "GREYAppConfiguration.h"
 #import "GREYFatalAsserts.h"

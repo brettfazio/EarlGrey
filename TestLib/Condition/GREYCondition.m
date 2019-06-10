@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/Condition/GREYCondition.h"
+#import "GREYCondition.h"
 
 #import <QuartzCore/QuartzCore.h>
 #import <mach/mach_time.h>

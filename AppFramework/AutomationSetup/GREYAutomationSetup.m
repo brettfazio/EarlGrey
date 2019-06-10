@@ -24,7 +24,7 @@
 #import "GREYFatalAsserts.h"
 #import "GREYAppleInternals.h"
 #import "GREYDefines.h"
-#import "TestLib/DistantObject/GREYTestApplicationDistantObject+GREYLogger.h"
+#import "GREYTestApplicationDistantObject+GREYLogger.h"
 
 // Exception handler that was previously installed before we replaced it with our own.
 static NSUncaughtExceptionHandler *gPreviousUncaughtExceptionHandler;

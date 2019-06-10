@@ -30,9 +30,9 @@
 #import "GREYDefines.h"
 #import "GREYElementMatcherBlock.h"
 #import "GREYMatcher.h"
-#import "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h"
-#import "TestLib/Assertion/GREYAssertionDefines.h"
-#import "TestLib/Condition/GREYCondition.h"
+#import "XCTestCase+GREYSystemAlertHandler.h"
+#import "GREYAssertionDefines.h"
+#import "GREYCondition.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

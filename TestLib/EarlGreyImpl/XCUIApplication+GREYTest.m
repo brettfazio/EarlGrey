@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "TestLib/EarlGreyImpl/XCUIApplication+GREYTest.h"
+#import "XCUIApplication+GREYTest.h"
 
 #include <objc/runtime.h>
 
@@ -23,8 +23,8 @@
 #import "GREYTestApplicationDistantObject+Private.h"
 #import "GREYTestApplicationDistantObject.h"
 #import "GREYSwizzler.h"
-#import "TestLib/Analytics/GREYAnalytics.h"
-#import "TestLib/XCTestCase/XCUIApplication+GREYEnvironment.h"
+#import "GREYAnalytics.h"
+#import "XCUIApplication+GREYEnvironment.h"
 
 @implementation XCUIApplication (GREYTest)
 
