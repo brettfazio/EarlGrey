@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.4"
+  s.version = "0.9.5"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
             (Dir.glob("{AppFramework,UILib}/**/*.h")) +
             Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
             Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m") +
-            Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m")
+            Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
+            Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
   
   headers = Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.h")
 
