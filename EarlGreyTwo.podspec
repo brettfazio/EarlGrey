@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   # Subspec each folder so folders exist when pod is installed.
 
-  s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/.."' }
+  s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"' }
   
   allf = Dir.glob("**/*.{m,h}")
   allh = Dir.glob("**/*.h")
