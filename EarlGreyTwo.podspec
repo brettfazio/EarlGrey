@@ -13,10 +13,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"', 'HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"' }
   
-  sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}"))
-          + (Dir.glob("AppFramework/**/*.h"))
-          + "AppFramework/Synchronization/GREYUIThreadExecutor.h"
-          + "AppFramework/Error/GREYFailureScreenshotterStub.m"
+  sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) + (Dir.glob("AppFramework/**/*.h")) + Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") + Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m")
   
   headers = Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.h")
 
