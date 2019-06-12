@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   
   appff = Dir.glob("AppFramework/**/*.m")
   
-  add = Dir.glob("AppFramework/Matcher/GREYMatchersShorthand.m")
+  #add = Dir.glob("AppFramework/Matcher/GREYMatchersShorthand.m")
   
   sour = (allf - alltestf) - appff
-  sour = sour + add
+  #sour = sour + add
   head = allh - alltesth
   
   s.source_files = sour
