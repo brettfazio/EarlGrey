@@ -19,7 +19,9 @@ Pod::Spec.new do |s|
   alltestf = Dir.glob("Tests/**/*.{m,h}")
   alltesth = Dir.glob("Tests/**/*.h")
   
-  sour = allf - alltestf
+  appff = Dir.glob("AppFramework/**/*.m")
+  
+  sour = (allf - alltestf) - appff
   head = allh - alltesth
   
   s.source_files = sour
