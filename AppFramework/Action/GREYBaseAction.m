@@ -21,7 +21,7 @@
 #import "GREYAppError.h"
 #import "GREYSyncAPI.h"
 #import "NSObject+GREYCommon.h"
-#import "GREYAssertionDefines.h"
+#import "GREYAssertionDefinesPrivate.h"
 #import "GREYThrowDefines.h"
 #import "GREYConfiguration.h"
 #import "GREYError+Private.h"

@@ -21,7 +21,7 @@
 #import "GREYAppError.h"
 #import "NSObject+GREYCommon.h"
 #import "GREYAssertionBlock.h"
-#import "GREYAssertionDefines.h"
+#import "GREYAssertionDefinesPrivate.h"
 #import "GREYFatalAsserts.h"
 #import "GREYLogger.h"
 #import "GREYMatcher.h"

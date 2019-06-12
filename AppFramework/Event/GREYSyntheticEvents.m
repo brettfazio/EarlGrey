@@ -20,7 +20,7 @@
 #import "GREYTouchInjector.h"
 #import "GREYDispatchQueueTracker.h"
 #import "GREYUIThreadExecutor.h"
-#import "GREYAssertionDefines.h"
+#import "GREYAssertionDefinesPrivate.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYErrorConstants.h"

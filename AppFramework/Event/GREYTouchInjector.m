@@ -23,7 +23,7 @@
 #import "GREYIOHIDEventTypes.h"
 #import "GREYRunLoopSpinner.h"
 #import "NSObject+GREYCommon.h"
-#import "GREYAssertionDefines.h"
+#import "GREYAssertionDefinesPrivate.h"
 #import "GREYFatalAsserts.h"
 #import "GREYThrowDefines.h"
 #import "GREYConfiguration.h"

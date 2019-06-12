@@ -25,7 +25,7 @@
 #define GREY_ASSERTION_DEFINES_H
 
 #import "GREYUIThreadExecutor.h"
-#import "GREYAssertionDefines.h"
+#import "GREYAssertionDefinesPrivate.h"
 #import "GREYConfiguration.h"
 #import "GREYFailureHandler.h"
 #import "GREYFrameworkException.h"
