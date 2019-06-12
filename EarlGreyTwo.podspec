@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.1"
+  s.version = "0.9.2"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -21,7 +21,10 @@ Pod::Spec.new do |s|
   
   appff = Dir.glob("AppFramework/**/*.m")
   
+  add = Dir.glob("AppFramework/Matcher/GREYMatchersShorthand.m")
+  
   sour = (allf - alltestf) - appff
+  sour = sour + add
   head = allh - alltesth
   
   s.source_files = sour
