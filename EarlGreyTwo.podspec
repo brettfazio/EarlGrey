@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.0"
+  s.version = "0.9.1"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
   
-  s.frameworks = "XCTest"
+  s.frameworks = "XCTest", "UIKit", "CoreFoundation"
 
 end
