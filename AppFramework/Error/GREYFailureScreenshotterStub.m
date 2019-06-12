@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "GREYFailureScreenshotter.h"
+//#import "GREYFailureScreenshotter.h"
 
 #import "GREYTestApplicationDistantObject.h"
 
-GREY_STUB_CLASS_IN_APP_MAIN_QUEUE(GREYFailureScreenshotter)
+//GREY_STUB_CLASS_IN_APP_MAIN_QUEUE(GREYFailureScreenshotter)

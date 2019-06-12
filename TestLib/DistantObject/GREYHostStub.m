@@ -16,6 +16,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "GREYFailureScreenshotter.h"
+
 #import "GREYActions.h"
 #import "GREYSyntheticEvents.h"
 #import "GREYKeyboard.h"
@@ -29,6 +31,8 @@
 #import "GREYHostBackgroundDistantObject.h"
 #import "GREYTestApplicationDistantObject.h"
 #import "Service/Sources/EDOClientService.h"
+
+GREY_STUB_CLASS_IN_APP_MAIN_QUEUE(GREYFailureScreenshotter)
 
 // Stub classes defined in the host (app under test)
 
