@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.5"
+  s.version = "0.9.6"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -36,7 +36,19 @@ Pod::Spec.new do |s|
 "CommonLib/Matcher/GREYMatcher.h",
 "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h",
 "TestLib/Assertion/GREYAssertionDefines.h",
-"TestLib/Condition/GREYCondition.h"]
+"TestLib/Condition/GREYCondition.h",
+        "AppFramework/Core/GREYElementInteraction.h",
+        "AppFramework/Core/GREYInteraction.h",
+        "AppFramework/Core/GREYInteractionDataSource.h",
+        "AppFramework/Matcher/GREYAllOf.h",
+        "AppFramework/Matcher/GREYAnyOf.h",
+        "AppFramework/Matcher/GREYMatchers.h",
+        "AppFramework/Matcher/GREYNot.h",
+        "AppFramework/Synchronization/GREYAppStateTracker.h",
+        "AppFramework/Synchronization/GREYAppStateTrackerObject.h",
+        "AppFramework/Synchronization/GREYSyncAPI.h",
+        "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+    ]
 
   s.source_files = sources
   s.public_header_files = headers
