@@ -20,7 +20,23 @@ Pod::Spec.new do |s|
             Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
             Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
   
-  headers = Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.h")
+  headers = ["AppFramework/Action/GREYAction.h",
+"AppFramework/Action/GREYActionsShorthand.h",
+"AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
+"AppFramework/Matcher/GREYMatchersShorthand.h",
+"CommonLib/Assertion/GREYAssertionBlock.h",
+"CommonLib/Config/GREYConfiguration.h",
+"CommonLib/DistantObject/GREYHostApplicationDistantObject.h",
+"CommonLib/DistantObject/GREYTestApplicationDistantObject.h",
+"CommonLib/Error/GREYErrorConstants.h",
+"CommonLib/Exceptions/GREYFailureHandler.h",
+"CommonLib/Exceptions/GREYFrameworkException.h",
+"CommonLib/GREYDefines.h",
+"CommonLib/Matcher/GREYElementMatcherBlock.h",
+"CommonLib/Matcher/GREYMatcher.h",
+"TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h",
+"TestLib/Assertion/GREYAssertionDefines.h",
+"TestLib/Condition/GREYCondition.h"]
 
   s.source_files = sources
   s.public_header_files = headers
