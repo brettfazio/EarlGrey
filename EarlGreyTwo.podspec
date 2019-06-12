@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
 "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h",
 "TestLib/Assertion/GREYAssertionDefines.h",
 "TestLib/Condition/GREYCondition.h",
+    "TestLib/EarlGreyImpl/EarlGrey.h",
         "AppFramework/Core/GREYElementInteraction.h",
         "AppFramework/Core/GREYInteraction.h",
         "AppFramework/Core/GREYInteractionDataSource.h",
