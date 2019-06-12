@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "removed" }
 
   # Subspec each folder so folders exist when pod is installed.
+
+  s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/.."' }
   
   allf = Dir.glob("**/*.{m,h}")
   allh = Dir.glob("**/*.h")
