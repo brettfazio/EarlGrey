@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.2"
+  s.version = "0.9.3"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -13,22 +13,15 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"', 'HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"' }
   
-  allf = Dir.glob("**/*.{m,h}")
-  allh = Dir.glob("**/*.h")
+  sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}"))
+          + (Dir.glob("AppFramework/**/*.h"))
+          + "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+          + "AppFramework/Error/GREYFailureScreenshotterStub.m"
   
-  alltestf = Dir.glob("Tests/**/*.{m,h}")
-  alltesth = Dir.glob("Tests/**/*.h")
-  
-  appff = Dir.glob("AppFramework/**/*.m")
-  
-  #add = Dir.glob("AppFramework/Matcher/GREYMatchersShorthand.m")
-  
-  sour = (allf - alltestf) - appff
-  #sour = sour + add
-  head = allh - alltesth
-  
-  s.source_files = sour
-  s.public_header_files = head
+  headers = Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.h")
+
+  s.source_files = sources
+  s.public_header_files = headers
 
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
