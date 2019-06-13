@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTwo"
-  s.version = "0.9.9"
+  s.version = "0.9.10"
   s.summary = "ObjC and Swift remote invocation framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -56,6 +56,7 @@ Pod::Spec.new do |s|
 "CommonLib/Matcher/GREYBaseMatcher.h",
 "CommonLib/Matcher/GREYDescription.h",
     "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h",
+    "CommonLib/Assertion/GREYAssertionDefinesPrivate.h"
     ]
 
   s.source_files = sources
