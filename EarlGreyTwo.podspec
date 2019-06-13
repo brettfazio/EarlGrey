@@ -48,7 +48,13 @@ Pod::Spec.new do |s|
         "AppFramework/Synchronization/GREYAppStateTracker.h",
         "AppFramework/Synchronization/GREYAppStateTrackerObject.h",
         "AppFramework/Synchronization/GREYSyncAPI.h",
-        "AppFramework/Synchronization/GREYUIThreadExecutor.h"
+        "AppFramework/Synchronization/GREYUIThreadExecutor.h",
+    "CommonLib/GREYConstants.h",
+"AppFramework/Core/GREYElementInteraction.h",
+"CommonLib/Assertion/GREYAssertion.h",
+"CommonLib/Config/GREYConfigKey.h",
+"CommonLib/Matcher/GREYBaseMatcher.h",
+"CommonLib/Matcher/GREYDescription.h"
     ]
 
   s.source_files = sources
