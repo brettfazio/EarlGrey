@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTest"
-  s.version = "2.0.12"
+  s.version = "2.0.13"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/google/EarlGrey"
   s.author = "Google Inc."
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   s.source_files = test_sources
   s.public_header_files = test_headers
 
-  #s.frameworks = "XCTest", "UIKit", "CoreFoundation"
+  s.frameworks = "XCTest"
   
   s.platform = :ios, '10.0'
 end
