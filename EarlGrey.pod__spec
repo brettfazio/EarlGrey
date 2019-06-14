@@ -73,4 +73,3 @@ s.source = { :git => "https://github.com/google/EarlGrey.git", :branch => "remov
   end
   s.platform = :ios, '10.0'
 end
-pod s
