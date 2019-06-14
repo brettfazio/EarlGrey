@@ -20,7 +20,7 @@
 #import "GREYHostApplicationDistantObject.h"
 #import "GREYHostBackgroundDistantObject.h"
 #import "GREYTestConfiguration.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "NSObject+EDOValueObject.h"
 
 GREYConfiguration *GREYCreateConfiguration(void) { return [[GREYAppConfiguration alloc] init]; }
 

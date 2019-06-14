@@ -23,7 +23,7 @@
 #import "GREYConfigKey.h"
 #import "GREYConfiguration+Private.h"
 #import "GREYLogger.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "NSObject+EDOValueObject.h"
 
 GREYConfiguration *GREYCreateConfiguration(void) { return [[GREYTestConfiguration alloc] init]; }
 

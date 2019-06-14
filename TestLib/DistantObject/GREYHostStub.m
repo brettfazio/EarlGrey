@@ -30,7 +30,7 @@
 #import "GREYHostApplicationDistantObject.h"
 #import "GREYHostBackgroundDistantObject.h"
 #import "GREYTestApplicationDistantObject.h"
-#import "Service/Sources/EDOClientService.h"
+#import "EDOClientService.h"
 
 GREY_STUB_CLASS_IN_APP_MAIN_QUEUE(GREYFailureScreenshotter)
 

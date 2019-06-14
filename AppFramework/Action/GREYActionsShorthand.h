@@ -18,7 +18,7 @@
 
 #import "GREYConstants.h"
 #import "GREYDefines.h"
-#import "Service/Sources/EDORemoteVariable.h"
+#import "EDORemoteVariable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
