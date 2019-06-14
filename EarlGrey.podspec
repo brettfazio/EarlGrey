@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # Install in ui test target using pod 'EarlGrey/Test'
   subspec 'Test' do |test|
       test.source = { :git => "https://github.com/google/EarlGrey.git", :branch => "earlgrey2" }
-      test.dependency "eDistantObject"
+      #test.dependency "eDistantObject"
 
       test.pod_target_xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"', 'HEADER_SEARCH_PATHS' => '"${SOURCE_ROOT}/**"' }
 
