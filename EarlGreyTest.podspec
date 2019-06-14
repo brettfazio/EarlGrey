@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
                  "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h",
                  "CommonLib/Assertion/GREYAssertionDefinesPrivate.h",
 				 "CommonLib/Config/GREYAppState.h",
-				 "CommonLib/GREYDiagnosible.h",
+				 "CommonLib/GREYDiagnosable.h",
 				 "AppFramework/IdlingResources/GREYIdlingResource.h"
 				 
         ]
