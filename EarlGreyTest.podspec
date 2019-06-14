@@ -58,7 +58,11 @@ Pod::Spec.new do |s|
                  "CommonLib/Matcher/GREYBaseMatcher.h",
                  "CommonLib/Matcher/GREYDescription.h",
                  "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h",
-                 "CommonLib/Assertion/GREYAssertionDefinesPrivate.h"
+                 "CommonLib/Assertion/GREYAssertionDefinesPrivate.h",
+				 "CommonLib/Config/GREYAppState.h",
+				 "CommonLib/GREYDiagnosible.h",
+				 "AppFramework/IdlingResources/GREYIdlingResource.h"
+				 
         ]
 
   s.source_files = test_sources

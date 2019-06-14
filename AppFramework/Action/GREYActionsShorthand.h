@@ -18,7 +18,8 @@
 
 #import "GREYConstants.h"
 #import "GREYDefines.h"
-#import "EDORemoteVariable.h"
+//#import "EDORemoteVariable.h"
+#import <eDisantObject/EDORemoteVariable.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
