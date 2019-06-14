@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTest"
-  s.version = "2.0.17"
+  s.version = "2.0.18"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/google/EarlGrey"
   s.author = "Google Inc."
