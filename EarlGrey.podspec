@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGrey"
-  s.version = "2.0.0"
+  s.version = "3.0.0"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # Install in main app target using pod 'EarlGrey/App'
   subspec 'App' do |app|
-    app.source = { :http => "https://www.github.com/google/EarlGrey/releases/download/2.0.0/EarlGrey.zip" }
+    app.source = { :http => "https://www.github.com/google/EarlGrey/releases/download/3.0.0/EarlGrey.zip" }
     app.vendored_frameworks = "AppFramework.framework"
 
     app.pod_target_xcconfig = { "FRAMEWORK_SEARCH_PATHS" =>"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
