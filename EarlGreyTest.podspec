@@ -65,7 +65,6 @@ Pod::Spec.new do |s|
   s.public_header_files = test_headers
 
   s.frameworks = "XCTest", "UIKit", "CoreFoundation"
-end
-
+  
   s.platform = :ios, '10.0'
 end
