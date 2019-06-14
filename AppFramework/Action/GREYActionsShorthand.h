@@ -16,9 +16,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CommonLib/GREYConstants.h"
-#import "CommonLib/GREYDefines.h"
-#import "Service/Sources/EDORemoteVariable.h"
+#import "GREYConstants.h"
+#import "GREYDefines.h"
+#import "EDORemoteVariable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
