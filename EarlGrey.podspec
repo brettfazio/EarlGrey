@@ -67,9 +67,10 @@ s.source = { :git => "https://github.com/google/EarlGrey.git", :branch => "remov
                  "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h",
                  "CommonLib/Assertion/GREYAssertionDefinesPrivate.h"
         ]
-        test.source_files = app_sources
-        test.public_header_files = app_headers
+        test.source_files = test_sources
+        test.public_header_files = test_headers
         test.frameworks = "XCTest", "UIKit", "CoreFoundation"
   end
   s.platform = :ios, '10.0'
 end
+pod s
