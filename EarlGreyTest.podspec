@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.dependency "eDistantObject"
 
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/EarlGreyTest" }
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/EarlGreyTest ${PODS_ROOT}/EarlGreyTest/CommonLib ${PODS_ROOT}/EarlGreyTest/**" }
 
   test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
@@ -59,9 +59,9 @@ Pod::Spec.new do |s|
                  "CommonLib/Matcher/GREYDescription.h",
                  "CommonLib/DistantObject/GREYHostBackgroundDistantObject.h",
                  "CommonLib/Assertion/GREYAssertionDefinesPrivate.h",
-				 "CommonLib/Config/GREYAppState.h",
-				 "CommonLib/GREYDiagnosable.h",
-				 "AppFramework/IdlingResources/GREYIdlingResource.h"
+		 "CommonLib/Config/GREYAppState.h",
+	         "CommonLib/GREYDiagnosable.h",
+		 "AppFramework/IdlingResources/GREYIdlingResource.h"
 				 
         ]
 
