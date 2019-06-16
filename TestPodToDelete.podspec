@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
         ]
 
   s.source_files = test_sources
-  s.public_header_files = Dir.glob("**/*.{m,h}")
+  s.public_header_files = Dir.glob("**/*.h")
 
   s.frameworks = "XCTest"
   
