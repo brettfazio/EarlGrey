@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/TestPodToDelete ${PODS_ROOT}/TestPodToDelete/CommonLib ${PODS_ROOT}/TestPodToDelete/**" }
 
-  test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
+  test_sources = (Dir.glob("{TestLib,CommonLib}/*.{m,h}")) +
+	        (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
                 Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
                 Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m") +
@@ -66,7 +67,7 @@ Pod::Spec.new do |s|
         ]
 
   s.source_files = test_sources
-  s.public_header_files = Dir.glob("**/*.h")
+  s.public_header_files = test_headers
 
   s.frameworks = "XCTest"
   
