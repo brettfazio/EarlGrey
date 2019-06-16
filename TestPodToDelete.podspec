@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
 	        (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
                 Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
-                Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 
