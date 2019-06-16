@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 
   test_headers = ["AppFramework/Action/GREYAction.h",
-                 #"AppFramework/Action/GREYActionsShorthand.h",
-                 #"AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
+                 "AppFramework/Action/GREYActionsShorthand.h",
+                 "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
                  "AppFramework/Matcher/GREYMatchersShorthand.h",
                  "CommonLib/Assertion/GREYAssertionBlock.h",
                  "CommonLib/Config/GREYConfiguration.h",
