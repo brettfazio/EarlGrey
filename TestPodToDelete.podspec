@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
   #s.source_files = test_sources
   #s.public_header_files = test_headers
 
-  s.source_files = ((Dir.glob("**/*.{h,m}") - Dir.glob("AppFramework/**/*.m")) + Dir.glob("AppFramework/**/*Stub.m"))
+  s.source_files = ((Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.{h,m}") - Dir.glob("AppFramework/**/*.m")) + Dir.glob("AppFramework/**/*Stub.m"))
   s.public_header_files = Dir.glob("**/*.h")
   
   s.frameworks = "XCTest"
