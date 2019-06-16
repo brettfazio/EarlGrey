@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   test_headers = ["AppFramework/Action/GREYAction.h",
                  #"AppFramework/Action/GREYActionsShorthand.h",
-                 "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
+                 #"AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
                  "AppFramework/Matcher/GREYMatchersShorthand.h",
                  "CommonLib/Assertion/GREYAssertionBlock.h",
                  "CommonLib/Config/GREYConfiguration.h",
