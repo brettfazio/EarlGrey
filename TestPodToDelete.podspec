@@ -1,7 +1,7 @@
 # Install in ui test target using pod 'EarlGrey/Test'
 Pod::Spec.new do |s|
 
-  s.name = "EarlGreyTest"
+  s.name = "TestPodToDelete"
   s.version = "2.0.18"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.dependency "eDistantObject"
 
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/EarlGreyTest ${PODS_ROOT}/EarlGreyTest/CommonLib ${PODS_ROOT}/EarlGreyTest/**" }
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/TestPodToDelete ${PODS_ROOT}/TestPodToDelete/CommonLib ${PODS_ROOT}/TestPodToDelete/**" }
 
   test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
