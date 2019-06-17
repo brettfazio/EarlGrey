@@ -15,15 +15,14 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/eDistantObject ${PODS_ROOT}/TestPodToDelete ${PODS_ROOT}/TestPodToDelete/CommonLib ${PODS_ROOT}/TestPodToDelete/**" }
 
-  test_sources = (Dir.glob("{TestLib,CommonLib}/*.{m,h}")) +
-	        (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
+  test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
                 Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 
-  test_headers = [	"CommonLib/GREYConstants.h",
-	                   "CommonLib/GREYDefines.h",
+  test_headers = [	"CommonLib/GREYDefines.h",
+	                 "CommonLib/GREYConstants.h",  
 	  "AppFramework/Action/GREYAction.h",
                  "AppFramework/Action/GREYActionsShorthand.h",
                  "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
