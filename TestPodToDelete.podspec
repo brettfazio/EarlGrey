@@ -73,12 +73,7 @@ Pod::Spec.new do |s|
 	
   #s.source_files = ((Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*.{h,m}") - Dir.glob("AppFramework/**/*.m")) + Dir.glob("AppFramework/**/*Stub.m"))
   #s.public_header_files = Dir.glob("**/*.h")
-  
-  s.preserve_paths = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
-                (Dir.glob("{AppFramework,UILib}/**/*.h")) +
-                Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
-                Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
-                Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
+
   s.frameworks = "XCTest"
   
   s.platform = :ios, '10.0'
