@@ -47,7 +47,6 @@ Pod::Spec.new do |s|
                  "AppFramework/Matcher/GREYAnyOf.h",
                  "AppFramework/Matcher/GREYMatchers.h",
                  "AppFramework/Matcher/GREYNot.h",
-                 "AppFramework/Synchronization/GREYAppStateTracker.h",
                  "AppFramework/Synchronization/GREYAppStateTrackerObject.h",
                  "AppFramework/Synchronization/GREYSyncAPI.h",
                  "AppFramework/Synchronization/GREYUIThreadExecutor.h",
