@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.dependency "eDistantObject"
 
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "$(inherited) ${PODS_ROOT}/eDistantObject ${PODS_ROOT}/TestPodToDelete ${PODS_ROOT}/TestPodToDelete/CommonLib ${PODS_ROOT}/TestPodToDelete/**" }
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => "$(SRCROOT)/Pods/Headers/ $(inherited) ${PODS_ROOT}/eDistantObject ${PODS_ROOT}/TestPodToDelete ${PODS_ROOT}/TestPodToDelete/CommonLib ${PODS_ROOT}/TestPodToDelete/**" }
 
   test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
