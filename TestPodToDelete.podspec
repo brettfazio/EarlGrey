@@ -22,9 +22,8 @@ Pod::Spec.new do |s|
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 
-  test_headers = [
+  test_headers = [	"CommonLib/GREYConstants.h",
 	                   "CommonLib/GREYDefines.h",
-	                   "CommonLib/GREYConstants.h",
 	  "AppFramework/Action/GREYAction.h",
                  "AppFramework/Action/GREYActionsShorthand.h",
                  "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h",
@@ -36,7 +35,6 @@ Pod::Spec.new do |s|
                  "CommonLib/Error/GREYErrorConstants.h",
                  "CommonLib/Exceptions/GREYFailureHandler.h",
                  "CommonLib/Exceptions/GREYFrameworkException.h",
-
                  "CommonLib/Matcher/GREYElementMatcherBlock.h",
                  "CommonLib/Matcher/GREYMatcher.h",
                  "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h",
@@ -54,7 +52,6 @@ Pod::Spec.new do |s|
                  "AppFramework/Synchronization/GREYAppStateTrackerObject.h",
                  "AppFramework/Synchronization/GREYSyncAPI.h",
                  "AppFramework/Synchronization/GREYUIThreadExecutor.h",
-
                  "AppFramework/Core/GREYElementInteraction.h",
                  "CommonLib/Assertion/GREYAssertion.h",
                  "CommonLib/Config/GREYConfigKey.h",
