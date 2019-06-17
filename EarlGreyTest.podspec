@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTest"
-  s.version = "2.0.18"
+  s.version = "2.0.19"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/google/EarlGrey"
   s.author = "Google Inc."
@@ -47,7 +47,6 @@ Pod::Spec.new do |s|
                  "AppFramework/Matcher/GREYAnyOf.h",
                  "AppFramework/Matcher/GREYMatchers.h",
                  "AppFramework/Matcher/GREYNot.h",
-                 "AppFramework/Synchronization/GREYAppStateTrackerObject.h",
                  "AppFramework/Synchronization/GREYSyncAPI.h",
                  "AppFramework/Synchronization/GREYUIThreadExecutor.h",
                  "CommonLib/GREYConstants.h",
