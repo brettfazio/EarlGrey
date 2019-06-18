@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name = "TestPodToDelete"
-  s.version = "2.0.18"
+  s.version = "2.0.19"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/brettfazio/EarlGrey"
   s.author = "Google Inc."
