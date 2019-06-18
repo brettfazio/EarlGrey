@@ -15,11 +15,8 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/EarlGreyTest/**" "${PODS_ROOT}/eDistantObject/"', 'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/EarlGreyTest/**" "${PODS_ROOT}/eDistantObject/"' }
 
-  test_sources = (Dir.glob("{TestLib,CommonLib}/**/*.{m,h}")) +
-                (Dir.glob("{AppFramework,UILib}/**/*.h")) +
-                Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
-                Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m") +
-                Dir.glob("{TestLib,CommonLib,UILib}/**/*Stub.m") +
+  test_sources = Dir.glob("{TestLib,CommonLib}/**/*.{m,h}") +
+                Dir.glob("{AppFramework,UILib}/**/*.h") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 	
   test_headers = ["AppFramework/Action/GREYAction.h",
