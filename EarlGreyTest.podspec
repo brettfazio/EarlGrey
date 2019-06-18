@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   test_sources = Dir.glob("{TestLib,CommonLib}/**/*.{m,h}") +
                 Dir.glob("{AppFramework,UILib}/**/*.h") +
+		Dir.glob("{TestLib,CommonLib,UILib}/**/*Stub.m")
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 	
   test_headers = ["AppFramework/Action/GREYAction.h",
