@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 
-  test_sources = test_sources - ["GREYTestStub.m"]
+  test_sources = test_sources - ["AppFramework/DistantObject/GREYTestStub.m"]
 	
   test_headers = ["AppFramework/Action/GREYAction.h",
                  "AppFramework/Action/GREYActionsShorthand.h",
