@@ -19,10 +19,8 @@ Pod::Spec.new do |s|
                 (Dir.glob("{AppFramework,UILib}/**/*.h")) +
                 Dir.glob("AppFramework/Synchronization/GREYUIThreadExecutor.h") +
                 Dir.glob("AppFramework/Error/GREYFailureScreenshotterStub.m") +
-                Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Stub.m") +
+                Dir.glob("{TestLib,CommonLib,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
-
-  test_sources = test_sources - ["AppFramework/DistantObject/GREYTestStub.m"]
 	
   test_headers = ["AppFramework/Action/GREYAction.h",
                  "AppFramework/Action/GREYActionsShorthand.h",
