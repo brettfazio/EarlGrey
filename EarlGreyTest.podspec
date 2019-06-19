@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name = "EarlGreyTest"
-  s.version = "2.0.20"
+  s.version = "2.0.21"
   s.summary = "iOS UI Automation Test Framework"
   s.homepage = "https://github.com/google/EarlGrey"
   s.author = "Google Inc."
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   test_sources = Dir.glob("{TestLib,CommonLib}/**/*.{m,h}") +
                 Dir.glob("{AppFramework,UILib}/**/*.h") +
-		Dir.glob("{TestLib,CommonLib,UILib}/**/*Stub.m")
+		Dir.glob("{TestLib,CommonLib,UILib}/**/*Stub.m") +
                 Dir.glob("{TestLib,CommonLib,AppFramework,UILib}/**/*Shorthand.m")
 	
   test_headers = ["AppFramework/Action/GREYAction.h",
