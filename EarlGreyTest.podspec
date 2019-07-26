@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                 ' Test Navigator so you can run tests directly from Xcode or the command line (using xcodebuild).'
   s.license = { :type => "Apache 2.0", :file => "LICENSE" }
 
-  s.source = { :git => "https://github.com/google/EarlGrey.git", :tag => "2.0.0-rc" }
+  s.source = { :git => "https://github.com/brettfazio/EarlGrey.git", :branch => "earlgrey2crash" }
 
   s.dependency "eDistantObject"
 
